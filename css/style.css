@@ -245,7 +245,72 @@ body {
     text-align:center;
 }
 
+.slider{
+    width:800px;
+    height:500px;
+    border-radius:10px;
+    overflow:hidden;
 
+}
+.slides{
+    width:500%;
+    height: 500px;
+    display:flex;
+}
+
+.slides input{
+    display:none;
+}
+
+.slide{
+    width:20%;
+    transition:2s;
+}
+
+.slide img{
+    widht:1000px;
+    height:500px;
+}
+
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: 400px;
+    display:flex;
+    justify-content:center;
+
+}
+
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+   margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background: white;
+}
+
+#radio1:checked ~ .first{
+    margin-left:0;
+}
+
+#radio2:checked ~ .first{
+    margin-left:-20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left:-40%;
+}
+
+#radio4:checked ~ .first{
+    margin-left:-60%;
+}
 
 
 
@@ -415,6 +480,88 @@ body {
     font-family: 'Open sans', Arial, Helvetica, sans-serif;
     line-height: 1rem;
 }
+
+.score {
+    width: 100%;
+    height: 100vh;
+    background-image:  url(../assets/top-score-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+}
+
+.papan-kiri-atas{
+    color:white;
+
+}
+
+.papan-kiri-atas h3 {
+    color:#df8613;
+
+}
+
+
+
+.container_{
+    min-height: 100vh;
+    display:flex;
+    justify-content:center;
+    margin-top:-10em;
+    
+    
+}
+
+.card-header-row{
+    width:
+
+}
+
+.card-header-row ul{
+    list-style:none;
+
+}
+
+.card-header-row ul li{
+    padding: 5px;
+    background-color:#df8613;
+    color:white;
+    border-radius:10px;
+    margin-bottom:20px;
+    
+}
+
+.card-header-row ul li:last child{
+    margin-bottom:0;
+}
+
+.card-header-content h1 {
+    font-size:25px;
+    font-weight: 500;
+    line-height:30px;
+}
+
+
+
+@media only screen and (min-width:768px){
+.card-header-row ul li{
+    width: 50%;
+    margin-bottom: 2px;
+    position:relative;
+}
+
+.card-header-row ul li:nth-child(odd){
+    float:right;
+    clear:left;
+}
+
+.card-header-row ul li:nth-child(even){
+    float:left;
+    clear:right;
+}
+}
+
+
+
 
 
 
