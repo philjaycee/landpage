@@ -163,13 +163,7 @@ body {
 }
 
 
-.header-home{ 
-    width:100%;
-    height:100vh;
-    background-image: url(../assets/main-bg.jpg);
-    background-size: cover;
-    background-position= center;
-}
+
 
 .header-home1{ 
     height:100vh;
@@ -316,6 +310,55 @@ body {
     border-radius:100%;
     background: #df8613;
 }
+
+.timelinel1{
+    padding:2px;
+    margin: 2px 0;
+    line-height:2;
+    cursor: pointer;
+    position: relative;
+    right:-20px;
+    color:beige;
+   
+ 
+ }
+ 
+ .timelinel1::after{
+     content:"";
+     width: 14px;
+     height: 14px;
+     border: 2px solid rgb(250, 246, 246);
+     position:absolute;
+     left: -8px;
+     border-radius:100%;
+ }
+
+
+
+
+
+.timelinel2{
+    padding:2px;
+    margin: 2px 0;
+    line-height:2;
+    cursor: pointer;
+    position: relative;
+    right:-20px;
+    color:beige;
+    
+ 
+ }
+ 
+ .timelinel2::after{
+     content:"";
+     width: 14px;
+     height: 14px;
+     border: 2px solid rgb(250, 246, 246);
+     position:absolute;
+     left: -8px;
+     border-radius:50%;
+    
+ }
 
 
 .sysrequire{
