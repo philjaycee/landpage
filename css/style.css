@@ -522,11 +522,11 @@ body {
 }
 
 .card-header-row ul li{
-    padding: 5px;
+    padding: 10px 10px;
     background-color:#df8613;
-    color:white;
-    border-radius:10px;
-    margin-bottom:20px;
+    border-radius:0px;
+    margin-bottom:30px;
+    margin-left:-20px;
     
 }
 
@@ -559,6 +559,27 @@ body {
     clear:right;
 }
 }
+
+
+
+.card-header-content h1  {
+    color:white;   
+    font-family:"Bebas Neue", sans-serif;
+}
+
+.card-header-content h3 {
+    color:white;
+    font-family:"Bebas Neue", sans-serif;
+}
+
+.card-header-content h9 {
+    color: rgb(63, 59, 59);
+    font-family:"Bebas Neue", sans-serif;
+}
+
+
+
+
 
 
 
